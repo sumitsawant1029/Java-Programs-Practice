@@ -5,12 +5,13 @@ class A{
 }
 class B extends A{
     public void print1(){
-        Sysytem.out.println("I AM Class B");
+        System.out.println("I AM Class B");
     }
 }
 class inheritance{
     public static void main(String arg[]){
         B obj=new B();
         obj.print();
+        obj.print1();
     }
 }
