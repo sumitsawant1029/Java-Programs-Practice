@@ -1,0 +1,16 @@
+class A{
+    public void print(){
+        System.out.println(" Hello I Am Class A");
+    }
+}
+class B extends A{
+    public void print1(){
+        Sysytem.out.println("I AM Class B");
+    }
+}
+class inheritance{
+    public static void main(String arg[]){
+        B.print();
+        B.print1();
+    }
+}
