@@ -10,7 +10,7 @@ class B extends A{
 }
 class inheritance{
     public static void main(String arg[]){
-        B.print();
-        B.print1();
+        B obj=new B();
+        obj.print();
     }
 }
