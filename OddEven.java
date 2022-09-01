@@ -13,12 +13,13 @@ class A1{
     }
 }
 class OddEven{
+    private static Scanner sc;
     public static void main(String args[]){
-        public static Scanner sc;
+        
         sc = new Scanner(System.in);
         System.out.println("Enter The nUmber : ");
         int x =sc.nextInt();
-        y=A1.Checking(x);
+        int y=A1.Checking(x);
         if(y==1)
             System.out.println("Number is Even");
         else
