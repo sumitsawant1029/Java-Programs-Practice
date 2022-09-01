@@ -12,8 +12,8 @@ class B{
 }
 class StaticN{
     public static void main(String args[]){
-        C.print();
+        C.print();// For Static Variable
         B obj = new B();
-        obj.print();
+        obj.print();// For Non Static Variable
     }
 }
