@@ -8,7 +8,7 @@ class Box{
         length=10;
     }
     public void Area(double w,double h, double b){
-        System.out.println(""+w);
+        
 
     }
 }
