@@ -8,13 +8,13 @@ class OCBR{
     }
 
     void meth(OCBR o){
-        o.a*= 2;
+        o.a *= 2;
         o.b /= 2;
     }
 }
 public class pass{
     public static void main(String args[]){
-        OCBR ob = new OCBR(12,22);
+        OCBR ob = new OCBR(12,22);//Created an Object
         System.out.println(""+ob.a+""+ob.b);
         ob.meth(ob);
         System.out.println(""+ob.a+""+ob.b);
