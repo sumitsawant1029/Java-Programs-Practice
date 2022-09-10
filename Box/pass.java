@@ -3,10 +3,10 @@
 class OCBR{
     int a,b;
     OCBR(int i, int j){
-        a=i;
+        a=i;// To Assign Values
         b=j;
     }
-
+// Adding method for Operations
     void meth(OCBR o){
         o.a *= 2;
         o.b /= 2;
