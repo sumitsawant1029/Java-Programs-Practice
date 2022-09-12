@@ -3,7 +3,7 @@ class Const {
         System.out.println(" Default Constructor Called");
     }
     Const(int x){// Parametrized Constructor
-        System.out.println(""+x);
+        System.out.println(""+x);// To Print Value Of X
     }
 }
 class Constructor{
