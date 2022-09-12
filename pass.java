@@ -15,9 +15,10 @@ class OCBR{
 public class pass{
     public static void main(String args[]){
         OCBR ob = new OCBR(12,22);//Created an Object
-        System.out.println(""+ob.a+""+ob.b);
+        System.out.println(""+ob.a+""+ob.b);// Code To Print value of a and b Before Method
         ob.meth(ob);
-        System.out.println(""+ob.a+""+ob.b);
+        System.out.println(""+ob.a+""+ob.b);// Code To Print value of a and b After Method
+        
 
     }
 }
